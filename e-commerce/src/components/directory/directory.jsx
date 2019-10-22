@@ -1,60 +1,23 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+
+import { selectDirectorySections } from '../../redux/directory/directory.selectors.js';
 
 import MenuItem from '../menu-item/menu-item.jsx';
 
 import './directory.scss';
 
-class Directory extends React.Component {
-    constructor() {
-        super();
+const Directory = ({ sections }) => (
+    <div className='directory-menu'>
+        {sections.map(({id, ...otherSectionProps}) => (
+            <MenuItem key={id} {...otherSectionProps} />
+        ))}
+    </div>
+);
 
-        this.state = {
-            sections: [
-                {
-                    title: 'hats',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    linkUrl:'hats',
-                    id: 1
-                },
-                {
-                    title: 'JACKETS',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    linkUrl:'JACKETS',
-                    id: 2
-                },
-                {
-                    title: 'SNEAKERS',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    linkUrl:'SNEAKERS',
-                    id: 3
-                },
-                {
-                    title: 'WOMENS',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    linkUrl:'WOMENS',
-                    id: 4,
-                    size: 'large'
-                },
-                {
-                    title: 'MENS',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    linkUrl:'MENS',
-                    id: 5,
-                    size: 'large'
-                }
-            ]
-        };
-    }
+const mapStateToProps = state => createStructuredSelector({
+    sections: selectDirectorySections
+})
 
-    render() {
-        return (
-            <div className='directory-menu'>
-                {this.state.sections.map(({id, ...otherSectionProps}) => (
-                    <MenuItem key={id} {...otherSectionProps} />
-                ))}
-            </div>
-        );
-    }
-}
-
-export default Directory;
+export default connect(mapStateToProps)(Directory);

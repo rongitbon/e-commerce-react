@@ -4,12 +4,13 @@ import MenuItem from '../../components/menu-item/menu-item.jsx';
 
 import Directory from '../../components/directory/directory.jsx';
 
+import {HomePageContainer} from './homepage.styles.jsx';
 import './homepage.scss';
 
 const HomePage = () => (
-    <div className='homepage'>
+    <HomePageContainer>
         <Directory />
-    </div>
+    </HomePageContainer>
 );
 
 export default HomePage;

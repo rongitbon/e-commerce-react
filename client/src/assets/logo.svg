@@ -1,0 +1,10 @@
+<svg height="55" width="88">
+    <polygon 
+        points="10,10 10,40 55,25 10,10"
+        style="fill:none; stroke:#2c2c2c;stroke-width:2"    
+    />
+    <polygon 
+        points="70,10 70,40 25,25 70,10"
+        style="fill:#2c2c2c; stroke:#2c2c2c;stroke-width:2"    
+    />
+</svg>

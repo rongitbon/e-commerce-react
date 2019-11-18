@@ -1,0 +1,35 @@
+0000000000000000000000000000000000000000 42e84685dbe0009d55a21fd9b7a4acf2c79f9ee4 rongitbon <rongitbon@gmail.com> 1565085390 +0300	commit (initial): created project
+42e84685dbe0009d55a21fd9b7a4acf2c79f9ee4 79f7a7e0ec2fa0262edf4718d5e8d069f422f5d4 rongitbon <rongitbon@gmail.com> 1565097226 +0300	commit: broken our homepage into smaller components, styling menu-item component
+79f7a7e0ec2fa0262edf4718d5e8d069f422f5d4 6a58d0e06d915a510313c4e0a875f0f187e52772 rongitbon <rongitbon@gmail.com> 1565114427 +0300	commit: update our menu-items to navigate withRouter HOC
+6a58d0e06d915a510313c4e0a875f0f187e52772 5da32f733d7626ff4a83dc4ff1917159f7abf87e rongitbon <rongitbon@gmail.com> 1565166613 +0300	commit: updating the app with a shop page
+5da32f733d7626ff4a83dc4ff1917159f7abf87e 32d5592a907e5d16b43cdbf8b625e0c59feb7c46 rongitbon <rongitbon@gmail.com> 1565270034 +0300	commit: Adding header components
+32d5592a907e5d16b43cdbf8b625e0c59feb7c46 4dfb44403f4234e513b830f70a9d9d3c6abb19cd rongitbon <rongitbon@gmail.com> 1567625376 +0300	commit: integrated firebase into application, created sign in page with sign in component and sign in with google
+4dfb44403f4234e513b830f70a9d9d3c6abb19cd 21987dd5578e56961c1e0c27ee70edfb3a38c0e3 rongitbon <rongitbon@gmail.com> 1568646126 +0300	commit: implemented firebase utils, included ability to store authenticated users into firestore database
+21987dd5578e56961c1e0c27ee70edfb3a38c0e3 eee25d9c0061692ab65140159377f98e669bac9e rongitbon <rongitbon@gmail.com> 1568895571 +0300	commit: finishing sign in handleSubmit method
+eee25d9c0061692ab65140159377f98e669bac9e 927e3b2eb552544005e9479c830d94fa70c10495 rongitbon <rongitbon@gmail.com> 1568916282 +0300	commit: added redux, and implemented userReducer and userActions
+927e3b2eb552544005e9479c830d94fa70c10495 64a74ef97bceea5381c549a68a83e77666954270 rongitbon <rongitbon@gmail.com> 1569096970 +0300	commit: updating our app to redirect to home if user is signed in
+64a74ef97bceea5381c549a68a83e77666954270 a4736470adb5a059b1595462bd66e03bc04342b6 rongitbon <rongitbon@gmail.com> 1569145646 +0300	commit: added cartIcon and cartDropdown components, also implemented cart reducer
+a4736470adb5a059b1595462bd66e03bc04342b6 fd84900fe9539d8e407ed73e2e92f12652fec2af rongitbon <rongitbon@gmail.com> 1569234036 +0300	commit: updated shop data with new data, updated cart utils to group items in cart reducer
+fd84900fe9539d8e407ed73e2e92f12652fec2af 81a844adee1ea72cab1e3ff7e5d4fad542aea160 rongitbon <rongitbon@gmail.com> 1569238514 +0300	commit: created cart-item
+81a844adee1ea72cab1e3ff7e5d4fad542aea160 f23636deea9bc9d1fa130310741aa23e25e3c2fb rongitbon <rongitbon@gmail.com> 1569242105 +0300	commit: updating our application with reselect, replaced cart selectors with memoized selectors
+f23636deea9bc9d1fa130310741aa23e25e3c2fb afa5ca63da0125d9d372a66c21ddb04430ec44b9 rongitbon <rongitbon@gmail.com> 1569327096 +0300	commit: added checkout page, checkout item component and updated cart to use selectors
+afa5ca63da0125d9d372a66c21ddb04430ec44b9 5d58cfa4cbdb75a2343f6e61b02cd31a1bf809ad rongitbon <rongitbon@gmail.com> 1569336723 +0300	commit: added addItem and removeItem functionality to checkout item component
+5d58cfa4cbdb75a2343f6e61b02cd31a1bf809ad f0d0f41ebf8974abf786e5f500c5496ad4c18aac rongitbon <rongitbon@gmail.com> 1571748229 +0300	commit: updating stripe integration and updating our favicon and title
+f0d0f41ebf8974abf786e5f500c5496ad4c18aac 5a96270baed325ba5f4b0206efc3ce763853d1fd rongitbon <rongitbon@gmail.com> 1571822613 +0300	commit: Switch to create-react-app-buildpack
+5a96270baed325ba5f4b0206efc3ce763853d1fd 4b7cde7c8df1bb643a35e088f288d9b663374f92 rongitbon <rongitbon@gmail.com> 1571825184 +0300	commit: ignore .heroku file
+4b7cde7c8df1bb643a35e088f288d9b663374f92 1f1922f2ea5f5a31090c53a4fc204dc6b61be129 rongitbon <rongitbon@gmail.com> 1571836404 +0300	commit: udating npm
+1f1922f2ea5f5a31090c53a4fc204dc6b61be129 9be59ee274007cd393758e5d58025ff8e4106fd6 rongitbon <rongitbon@gmail.com> 1571847322 +0300	commit: fix erorr
+9be59ee274007cd393758e5d58025ff8e4106fd6 7f7ba7782c398bbe847b98044278a4577179934f rongitbon <rongitbon@gmail.com> 1571847871 +0300	commit: fix erorr
+7f7ba7782c398bbe847b98044278a4577179934f 3b96741ea66afff3cd9419a2a43826120b3d7343 rongitbon <rongitbon@gmail.com> 1571914025 +0300	commit: fix erorr
+3b96741ea66afff3cd9419a2a43826120b3d7343 6cb443cad81a9edf3147e4f83fa26be478b7662c rongitbon <rongitbon@gmail.com> 1571933677 +0300	commit: fix erorr
+6cb443cad81a9edf3147e4f83fa26be478b7662c 6d2f507a0397335a6074528e1f1c78d4220b903e rongitbon <rongitbon@gmail.com> 1571934895 +0300	commit: Purge cache
+6d2f507a0397335a6074528e1f1c78d4220b903e 299bc9a1ff31801692a161132ee4596ded9be61e rongitbon <rongitbon@gmail.com> 1571935151 +0300	commit: fix erorr
+299bc9a1ff31801692a161132ee4596ded9be61e 1348801e415cf971a61509a53f93dbb62c30c287 rongitbon <rongitbon@gmail.com> 1571989790 +0300	commit: fix erorr
+1348801e415cf971a61509a53f93dbb62c30c287 43500196da8e1d7dad087b4e21cce8fe44fda052 rongitbon <rongitbon@gmail.com> 1572166637 +0200	commit: fix error
+43500196da8e1d7dad087b4e21cce8fe44fda052 00726d5fc886e8717944587412dafa81e8477454 rongitbon <rongitbon@gmail.com> 1572167806 +0200	commit: fix error
+00726d5fc886e8717944587412dafa81e8477454 8c4f2a7e2a08f100fdb96720a230cfdda6655c09 rongitbon <rongitbon@gmail.com> 1572168493 +0200	commit: fix error
+8c4f2a7e2a08f100fdb96720a230cfdda6655c09 147443f1011c0dcb3228f736415b65d045329af2 rongitbon <rongitbon@gmail.com> 1572168708 +0200	commit: fix error
+147443f1011c0dcb3228f736415b65d045329af2 78671d3712ba806d6aaeac8067252b71182050cf rongitbon <rongitbon@gmail.com> 1572169506 +0200	commit: fix error
+78671d3712ba806d6aaeac8067252b71182050cf 8504bee4ea29e869a5dcd932ed4da9abb71d7814 rongitbon <rongitbon@gmail.com> 1572169886 +0200	commit: fix error
+8504bee4ea29e869a5dcd932ed4da9abb71d7814 d93c3d205fd16a8188b1098dd2c76cc26e21fc5e rongitbon <rongitbon@gmail.com> 1572170508 +0200	commit: fix error
+d93c3d205fd16a8188b1098dd2c76cc26e21fc5e 25efd9222361caa6f58261446fc44321fa963d0c rongitbon <rongitbon@gmail.com> 1572781784 +0200	commit: I added saga to the project

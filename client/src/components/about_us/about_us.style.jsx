@@ -88,6 +88,15 @@ export const AboutUsBtn = styled.button`
     border: .1rem solid #555;
     outline: none;
     cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background-color: #444;
+    }
+
+    &:active {
+        opacity: .8;
+    }
 `;
 
 const arrImg = [
